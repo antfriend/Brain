@@ -84,11 +84,11 @@ void cycle_down(int from, int to, long milis, bool state)
 void loop() 
 {
   all_off();
-  randNumber = random(50, 100);
-  delay(randNumber * 10);
+  randNumber = random(1, 100);
+  delay(randNumber * 50);
 
-  int _low = 0;
-  int _high = 16;
+  int _low = random(0, 7);
+  int _high = random(8, 16);
   
   cycle_up(_low, _high, randNumber, HIGH);
   cycle_up(_low, _high, randNumber, LOW);
