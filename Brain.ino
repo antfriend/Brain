@@ -87,7 +87,7 @@ void loop()
   //randNumber = random(1, 100);
   randNumber = 25;
   //delay(randNumber * 50);
-  delay(250);
+  delay(25);
 
   int _low = random(0, 7);
   int _high = random(8, 16);
