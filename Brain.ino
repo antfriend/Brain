@@ -84,8 +84,10 @@ void cycle_down(int from, int to, long milis, bool state)
 void loop() 
 {
   all_off();
-  randNumber = random(1, 100);
-  delay(randNumber * 50);
+  //randNumber = random(1, 100);
+  randNumber = 25;
+  //delay(randNumber * 50);
+  delay(250);
 
   int _low = random(0, 7);
   int _high = random(8, 16);
